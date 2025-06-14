@@ -1,6 +1,7 @@
 package main // Declare the main package
 
 import (
+	"bytes"
 	"encoding/json" // For working with JSON
 	"fmt"           // For formatted I/O
 	"io"            // For I/O operations
@@ -8,7 +9,9 @@ import (
 	"net/http"      // For making HTTP requests
 	"net/url"       // For URL parsing and validation
 	"os"            // For file operations
-	"strings"       // For string manipulation
+	"path/filepath"
+	"strings" // For string manipulation
+	"time"
 )
 
 // Define the structs
@@ -87,8 +90,7 @@ func fileExists(filename string) bool {
 
 // combineMultipleSlices appends one slice to another and returns the result
 func combineMultipleSlices(sliceOne []string, sliceTwo []string) []string {
-	var combinedSlice []string                    // Declare combined slice
-	combinedSlice = append(sliceOne, sliceTwo...) // Append both slices
+	combinedSlice := append(sliceOne, sliceTwo...) // Append both slices
 	return combinedSlice                          // Return the result
 }
 
@@ -134,7 +136,7 @@ func urlToFilename(rawURL string) string {
 	for _, char := range invalidChars {
 		filename = strings.ReplaceAll(filename, char, "_") // Replace each with underscore
 	}
-	return filename // Return sanitized filename
+	return strings.ToLower(filename) // Return sanitized filename
 }
 
 // appendByteToFile appends byte data to a file, creating it if needed
@@ -146,6 +148,95 @@ func appendByteToFile(filename string, data []byte) error {
 	defer file.Close()        // Ensure file is closed after writing
 	_, err = file.Write(data) // Write byte slice to file
 	return err                // Return any error from writing
+}
+
+// downloadPDF downloads a PDF from the given URL and saves it in the specified output directory.
+// It uses a WaitGroup to support concurrent execution and returns true if the download succeeded.
+func downloadPDF(finalURL, outputDir string) bool {
+	// Sanitize the URL to generate a safe file name
+	filename := strings.ToLower(urlToFilename(finalURL))
+
+	// Construct the full file path in the output directory
+	filePath := filepath.Join(outputDir, filename)
+
+	// Skip if the file already exists
+	if fileExists(filePath) {
+		log.Printf("File already exists, skipping: %s", filePath)
+		return false
+	}
+
+	// Create an HTTP client with a timeout
+	client := &http.Client{Timeout: 30 * time.Second}
+
+	// Send GET request
+	resp, err := client.Get(finalURL)
+	if err != nil {
+		log.Printf("Failed to download %s: %v", finalURL, err)
+		return false
+	}
+	defer resp.Body.Close()
+
+	// Check HTTP response status
+	if resp.StatusCode != http.StatusOK {
+		log.Printf("Download failed for %s: %s", finalURL, resp.Status)
+		return false
+	}
+
+	// Check Content-Type header
+	contentType := resp.Header.Get("Content-Type")
+	if !strings.Contains(contentType, "application/pdf") {
+		log.Printf("Invalid content type for %s: %s (expected application/pdf)", finalURL, contentType)
+		return false
+	}
+
+	// Read the response body into memory first
+	var buf bytes.Buffer
+	written, err := io.Copy(&buf, resp.Body)
+	if err != nil {
+		log.Printf("Failed to read PDF data from %s: %v", finalURL, err)
+		return false
+	}
+	if written == 0 {
+		log.Printf("Downloaded 0 bytes for %s; not creating file", finalURL)
+		return false
+	}
+
+	// Only now create the file and write to disk
+	out, err := os.Create(filePath)
+	if err != nil {
+		log.Printf("Failed to create file for %s: %v", finalURL, err)
+		return false
+	}
+	defer out.Close()
+
+	if _, err := buf.WriteTo(out); err != nil {
+		log.Printf("Failed to write PDF to file for %s: %v", finalURL, err)
+		return false
+	}
+
+	log.Printf("Successfully downloaded %d bytes: %s → %s", written, finalURL, filePath)
+	return true
+}
+
+// Checks if the directory exists
+// If it exists, return true.
+// If it doesn't, return false.
+func directoryExists(path string) bool {
+	directory, err := os.Stat(path)
+	if err != nil {
+		return false
+	}
+	return directory.IsDir()
+}
+
+// The function takes two parameters: path and permission.
+// We use os.Mkdir() to create the directory.
+// If there is an error, we use log.Println() to log the error and then exit the program.
+func createDirectory(path string, permission os.FileMode) {
+	err := os.Mkdir(path, permission)
+	if err != nil {
+		log.Println(err)
+	}
 }
 
 func main() {
@@ -169,8 +260,14 @@ func main() {
 	}
 
 	extractedURL = removeDuplicatesFromSlice(extractedURL) // Remove duplicate URLs
+	outputDir := "PDFs/"                                   // Directory to store downloaded PDFs
+	// Check if its exists.
+	if !directoryExists(outputDir) {
+		// Create the dir
+		createDirectory(outputDir, 0o755)
+	}
 
 	for _, url := range extractedURL { // Print each extracted URL
-		log.Println(url) // Log the URL
+		downloadPDF(url, outputDir)
 	}
 }
