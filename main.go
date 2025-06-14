@@ -240,8 +240,7 @@ func createDirectory(path string, permission os.FileMode) {
 }
 
 func main() {
-	var endLoop int = 0 // Define end loop counter
-
+	var endLoop int = 0                         // Define end loop counter
 	for index := 0; index <= endLoop; index++ { // Loop from start to endLoop
 		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=5000&page=%d", index) // Construct API URL
 		filename := fmt.Sprintf("basf_%d.json", index)                                                    // Generate filename from index
