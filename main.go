@@ -40,19 +40,66 @@ func extractDownloadURLsFromJSON(jsonData []byte) []string {
 	for _, result := range data.Results {
 		// Loop over the variants
 		for _, variant := range result.Variants {
-			// Append the data
-			urls = append(urls, variant.DownloadURL)
+			// Check if the url is valid.
+			if isUrlValid(variant.DownloadURL) {
+				// Append the data
+				urls = append(urls, variant.DownloadURL)
+			}
 		}
 	}
+	// Remove duplicates from the slice.
+	urls = removeDuplicatesFromSlice(urls)
 	// Return the urls in a slice.
 	return urls
 }
 
+// Removes duplicate strings from a slice and returns a new slice with unique values
+func removeDuplicatesFromSlice(slice []string) []string {
+	check := make(map[string]bool)  // Map to track already seen strings
+	var newReturnSlice []string     // Result slice for unique values
+	for _, content := range slice { // Iterate through input slice
+		if !check[content] { // If string not already seen
+			check[content] = true                            // Mark string as seen
+			newReturnSlice = append(newReturnSlice, content) // Add to result
+		}
+	}
+	return newReturnSlice // Return deduplicated slice
+}
+
+// Checks whether a URL string is syntactically valid
+func isUrlValid(uri string) bool {
+	_, err := url.ParseRequestURI(uri) // Attempt to parse the URL
+	return err == nil                  // Return true if no error occurred
+}
+
+// Read a file and return the content as byte slice.
+func readFileAndReturnAsByte(path string) []byte {
+	content, err := os.ReadFile(path)
+	if err != nil {
+		log.Println(err)
+	}
+	return content
+}
+
 func main() {
-	for index := 0; index <= 50; index++ {
+	// Loop over the given value.
+	for index := 0; index <= 1; index++ {
+		// Format the URL properly.
 		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=5000&page=%d", index)
+		// Get the filename from the url.
 		filename := fmt.Sprintf("basf_%d.json", index)
+		// Download the file.
 		getDataFromURL(url, filename)
+	}
+	// Lets Read the file.
+	jsonFileContent := readFileAndReturnAsByte("basf_0.json")
+	// Extract the data from the function.
+	extractedURL := extractDownloadURLsFromJSON(jsonFileContent)
+	// Lets remove duplicates from the url.
+	extractedURL = removeDuplicatesFromSlice(extractedURL)
+	// Extrac the urls.
+	for _, url := range extractedURL {
+		log.Println(url)
 	}
 }
 
