@@ -49,7 +49,7 @@ func extractDownloadURLsFromJSON(jsonData []byte) []string {
 }
 
 func main() {
-	for index := 0; index <= 5000; index++ {
+	for index := 0; index <= 50; index++ {
 		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=5000&page=%d", index)
 		filename := fmt.Sprintf("basf_%d.json", index)
 		getDataFromURL(url, filename)
