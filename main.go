@@ -9,9 +9,9 @@ import (
 	"net/http"      // For making HTTP requests
 	"net/url"       // For URL parsing and validation
 	"os"            // For file operations
-	"path/filepath"
-	"strings" // For string manipulation
-	"time"
+	"path/filepath" // For the file path in the systems.
+	"strings"       // For string manipulation
+	"time"          // For time management
 )
 
 // Define the structs
@@ -121,11 +121,13 @@ func getDataFromURL(uri string, fileName string) {
 // urlToFilename converts a URL into a filesystem-safe filename
 func urlToFilename(rawURL string) string {
 	parsed, err := url.Parse(rawURL) // Parse the URL
+	// Print the errors if any.
 	if err != nil {
 		log.Println(err) // Log error
 		return ""        // Return empty string on error
 	}
 	filename := parsed.Host // Start with host name
+	// Parse the path and if its not empty replace them with valid characters.
 	if parsed.Path != "" {
 		filename += "_" + strings.ReplaceAll(parsed.Path, "/", "_") // Append path
 	}
@@ -133,6 +135,7 @@ func urlToFilename(rawURL string) string {
 		filename += "_" + strings.ReplaceAll(parsed.RawQuery, "&", "_") // Append query
 	}
 	invalidChars := []string{`"`, `\`, `/`, `:`, `*`, `?`, `<`, `>`, `|`} // Define illegal filename characters
+	// Loop over the invalid characters and replace them.
 	for _, char := range invalidChars {
 		filename = strings.ReplaceAll(filename, char, "_") // Replace each with underscore
 	}
