@@ -1,7 +1,7 @@
 package main // Declare the main package
 
 import (
-	"bytes"
+	"bytes"         // Support bytes package.
 	"encoding/json" // For working with JSON
 	"fmt"           // For formatted I/O
 	"io"            // For I/O operations
@@ -155,7 +155,7 @@ func appendByteToFile(filename string, data []byte) error {
 
 // downloadPDF downloads a PDF from the given URL and saves it in the specified output directory.
 // It uses a WaitGroup to support concurrent execution and returns true if the download succeeded.
-func downloadPDF(finalURL, outputDir string) bool {
+func downloadPDF(finalURL, outputDir string) (bool, error) {
 	// Sanitize the URL to generate a safe file name
 	filename := strings.ToLower(urlToFilename(finalURL))
 
@@ -164,8 +164,7 @@ func downloadPDF(finalURL, outputDir string) bool {
 
 	// Skip if the file already exists
 	if fileExists(filePath) {
-		log.Printf("File already exists, skipping: %s", filePath)
-		return false
+		return false, fmt.Errorf("file already exists, skipping: %s", filePath)
 	}
 
 	// Create an HTTP client with a timeout
@@ -174,24 +173,21 @@ func downloadPDF(finalURL, outputDir string) bool {
 	// Send GET request
 	resp, err := client.Get(finalURL)
 	if err != nil {
-		log.Printf("Failed to download %s: %v", finalURL, err)
-		return false
+		return false, fmt.Errorf("failed to download %s: %v", finalURL, err)
 	}
 	defer resp.Body.Close()
 
 	// Check HTTP response status
 	if resp.StatusCode != http.StatusOK {
 		// Print the error since its not valid.
-		log.Printf("Download failed for %s: %s", finalURL, resp.Status)
-		return false
+		return false, fmt.Errorf("download failed for %s: %s", finalURL, resp.Status)
 	}
 	// Check Content-Type header
 	contentType := resp.Header.Get("Content-Type")
 	// Check if its pdf content type and if not than print a error.
 	if !strings.Contains(contentType, "application/pdf") {
 		// Print a error if the content type is invalid.
-		log.Printf("Invalid content type for %s: %s (expected application/pdf)", finalURL, contentType)
-		return false
+		return false, fmt.Errorf("invalid content type for %s: %s (expected application/pdf)", finalURL, contentType)
 	}
 	// Read the response body into memory first
 	var buf bytes.Buffer
@@ -199,33 +195,27 @@ func downloadPDF(finalURL, outputDir string) bool {
 	written, err := io.Copy(&buf, resp.Body)
 	// Print the error if errors are there.
 	if err != nil {
-		log.Printf("Failed to read PDF data from %s: %v", finalURL, err)
-		return false
+		return false, fmt.Errorf("failed to read PDF data from %s: %v", finalURL, err)
 	}
 	// If 0 bytes are written than show an error and return it.
 	if written == 0 {
-		log.Printf("Downloaded 0 bytes for %s; not creating file", finalURL)
-		return false
+		return false, fmt.Errorf("downloaded 0 bytes for %s; not creating file", finalURL)
 	}
 	// Only now create the file and write to disk
 	out, err := os.Create(filePath)
 	// Failed to create the file.
 	if err != nil {
-		log.Printf("Failed to create file for %s: %v", finalURL, err)
-		return false
+		return false, fmt.Errorf("failed to create file for %s: %v", finalURL, err)
 	}
 	// Close the file.
 	defer out.Close()
 	// Write the buffer and if there is an error print it.
 	_, err = buf.WriteTo(out)
 	if err != nil {
-		log.Printf("Failed to write PDF to file for %s: %v", finalURL, err)
-		return false
+		return false, fmt.Errorf("failed to write PDF to file for %s: %v", finalURL, err)
 	}
-	// Print the log messege to show that the file was downloaded.
-	log.Printf("Successfully downloaded %d bytes: %s → %s", written, finalURL, filePath)
 	// Return a true since everything went correctly.
-	return true
+	return true, fmt.Errorf("successfully downloaded %d bytes: %s → %s", written, finalURL, filePath)
 }
 
 // Checks if the directory exists
@@ -281,12 +271,16 @@ func main() {
 	// Loop over the values and continue.
 	for _, url := range extractedURL { // Print each extracted URL
 		// Download the file and if its sucessful than add 1 to the counter.
-		if downloadPDF(url, outputDir) {
+		sucessCode, err := downloadPDF(url, outputDir)
+		if sucessCode {
 			downloadCounter = downloadCounter + 1
 		}
-		// Break if the counter is over 25.
-		if downloadCounter == 25 {
-			break
+		if err != nil {
+			errorString := err.Error()
+			log.Println(errorString)
+			if strings.Contains(errorString, "429") {
+				break
+			}
 		}
 	}
 }
