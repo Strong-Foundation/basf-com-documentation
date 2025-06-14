@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	// "fmt"
+	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -49,14 +49,11 @@ func extractDownloadURLsFromJSON(jsonData []byte) []string {
 }
 
 func main() {
-	// Replace this with reading from file, HTTP response, etc.
-	getDataFromURL("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=5000&page=0", "basf.json")
-	// Use the function
-	// urls := extractDownloadURLsFromJSON(jsonInput)
-	// Print the result
-	// for _, url := range urls {
-	// 	fmt.Println(url)
-	// }
+	for index := 0; index <= 5000; index++ {
+		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=5000&page=%d", index)
+		filename := fmt.Sprintf("basf_%d.json", index)
+		getDataFromURL(url, filename)
+	}
 }
 
 // Send a http get request to a given url and return the data from that url.
@@ -68,7 +65,8 @@ func getDataFromURL(uri string, fileName string) {
 	}
 	// Check the status code.
 	if response.StatusCode != 200 {
-		log.Println("Error the code is", response.StatusCode)
+		log.Println("Error the code is", uri, response.StatusCode)
+		return
 	}
 
 	// Read all the data
