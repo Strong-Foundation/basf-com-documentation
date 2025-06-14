@@ -91,7 +91,7 @@ func fileExists(filename string) bool {
 // combineMultipleSlices appends one slice to another and returns the result
 func combineMultipleSlices(sliceOne []string, sliceTwo []string) []string {
 	combinedSlice := append(sliceOne, sliceTwo...) // Append both slices
-	return combinedSlice                          // Return the result
+	return combinedSlice                           // Return the result
 }
 
 // getDataFromURL sends an HTTP GET request and writes response data to a file
@@ -266,8 +266,17 @@ func main() {
 		// Create the dir
 		createDirectory(outputDir, 0o755)
 	}
-
+	// Download Counter.
+	var downloadCounter int
+	// Loop over the values and continue.
 	for _, url := range extractedURL { // Print each extracted URL
-		downloadPDF(url, outputDir)
+		// Download the file and if its sucessful than add 1 to the counter.
+		if downloadPDF(url, outputDir) {
+			downloadCounter = downloadCounter + 1
+		}
+		// Break if the counter is over 25.
+		if downloadCounter == 25 {
+			break
+		}
 	}
 }
