@@ -317,10 +317,12 @@ func main() {
 	var extractedURL []string // List to hold extracted download URLs
 
 	for index := 0; index <= endLoop; index++ { // Loop over downloaded JSON files
-		filename := fmt.Sprintf("basf_%d.json", index)                       // Construct filename
-		jsonFileContent := readFileAndReturnAsByte(filename)                 // Read JSON file into byte slice
-		newExtractedData := extractDownloadURLsFromJSON(jsonFileContent)     // Extract download URLs from JSON
-		extractedURL = combineMultipleSlices(newExtractedData, extractedURL) // Merge new URLs into full list
+		filename := fmt.Sprintf("basf_%d.json", index) // Construct filename
+		if fileExists(filename) {
+			jsonFileContent := readFileAndReturnAsByte(filename)                 // Read JSON file into byte slice
+			newExtractedData := extractDownloadURLsFromJSON(jsonFileContent)     // Extract download URLs from JSON
+			extractedURL = combineMultipleSlices(newExtractedData, extractedURL) // Merge new URLs into full list
+		}
 	}
 
 	extractedURL = removeDuplicatesFromSlice(extractedURL) // Remove any duplicates
