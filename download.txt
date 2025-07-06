@@ -7035,3 +7035,6 @@ https://download.basf.com/p1/8a8081c57fd4b609017fd636fc0c3e9a/de/ULTRAMID%3Csup%
 https://download.basf.com/p1/8a8081c57fd4b609017fd64beab05397/en/ULTRAMID%3Csup%3E%C2%AE%3Csup%3E_B3ZG7_CR_BLACK_23282_Product_Data_Sheet_Europe_English.pdf → PDFs/85dbe3045397d8c99aaa650573acd1ebd3abe5a57b17f88650c8bb7d581a31e2.pdf
 https://download.basf.com/p1/8a8081c57fd4b609017fd64beab05397/de/ULTRAMID%3Csup%3E%C2%AE%3Csup%3E_B3ZG7_CR_BLACK_23282_Product_Data_Sheet_Europe_German.pdf → PDFs/9a554d6c73b1638eedeffb1b96835e57e8d969c7dfb24d51bf6a8d15a4a243d3.pdf
 https://download.basf.com/p1/000000000030713439_SDS_GEN_TH/th/Acronal%C2%AE_3850_Safety_Data_Sheet_Thailand_Thai.pdf → PDFs/779ed5d2b1068fad1675970e5e8ecba8009fe4902c64de94acd5e6c8c8aa63c6.pdf
+https://download.basf.com/p1/8a8082a682259b2f0182a2c8a2a14e19/es/EC_-_Brochure_1_-_Fendona%C2%AE_6_SC_Brochure_Ecuador_Spanish.pdf → PDFs/cea647781fdf44e5ae0d8aecd102baf181a1673b2d2e10a972b53c13bb268ffb.pdf
+https://download.basf.com/p1/8a8082587fd4b608017fd63af0952cfa/de/ecovio%3Csup%3E%C2%AE%3Csup%3E_F2224_Product_Data_Sheet_English.pdf → PDFs/0844b84e129176554ae81ee2ad65aa6ea0018754b138a103a1eebf3c182a98bd.pdf
+https://download.basf.com/p1/8a8081c57fd4b609017fd648689c5033/nl/Elastocoat_C_6335101_Declaration_of_Performance_%28DoP%29_Dutch.pdf → PDFs/bfa2f86887015e2e63481d1e0559f946016382b810ead365bcb935e9661832a4.pdf
