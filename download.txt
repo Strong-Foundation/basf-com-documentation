@@ -9809,3 +9809,17 @@ https://download.basf.com/p1/000000000030680006_SDS_GEN_VN/vi/HySorb%C2%AE_B_660
 https://download.basf.com/p1/000000000030680006_SDS_GEN_ZA/en/HySorb%C2%AE_B_6600_Safety_Data_Sheet_South_Africa_English.pdf → PDFs/82b3077818de5021d94be02da71f73ab373b98c6c5887cffadc9671f079eb1be.pdf
 https://download.basf.com/p1/000000000030680006_SDS_GEN_KR/ko/HySorb%C2%AE_B_6600_Safety_Data_Sheet_South_Korea_Korean.pdf → PDFs/7b1a3ec5d5e0dda3b2d0713315125c5e38d504d66e9a584bc97e57ccbff6e5b8.pdf
 https://download.basf.com/p1/000000000030680006_SDS_GEN_ES/es/HySorb%C2%AE_B_6600_Safety_Data_Sheet_Spain_Spanish.pdf → PDFs/d982ae167e398be0ac01c63b1135842f5c82d06e940a46bc2f43a741364d4483.pdf
+https://download.basf.com/p1/000000000030680006_SDS_GEN_SE/sv/HySorb%C2%AE_B_6600_Safety_Data_Sheet_Sweden_Swedish.pdf → PDFs/664652074379d034e7c54c968ba2f31886ba08bcabf118502ea30086fa016ae3.pdf
+https://download.basf.com/p1/000000000030680006_SDS_GEN_TR/tr/HySorb%C2%AE_B_6600_Safety_Data_Sheet_Turkey_Turkish.pdf → PDFs/3973d59b07e2e596bf4d287b30abd7b7f043be00daff9fb546a7156db7dbadf9.pdf
+https://download.basf.com/p1/000000000030680006_SDS_GEN_00/en/HySorb%C2%AE_B_6600_Safety_Data_Sheet_United_Nations_English.pdf → PDFs/5dc3d1340e9637a03c2b8f6cf85ac32bb3fbb6b8517665c81dfdec9424c6f4c6.pdf
+https://download.basf.com/p1/000000000030680006_SDS_GEN_00/fr/HySorb%C2%AE_B_6600_Safety_Data_Sheet_United_Nations_French.pdf → PDFs/bb52b5c6cf5d21bdb35fcd75799619f5a671131fbe3258f5afed1141920794fa.pdf
+https://download.basf.com/p1/000000000030680006_SDS_GEN_00/es/HySorb%C2%AE_B_6600_Safety_Data_Sheet_United_Nations_Spanish.pdf → PDFs/f0626d54baf09174d78c7a4b134bbfe40a65ff9f45ed101457dffd06291f2145.pdf
+https://download.basf.com/p1/000000000030680006_SDS_GEN_VE/es/HySorb%C2%AE_B_6600_Safety_Data_Sheet_Venezuela_Spanish.pdf → PDFs/2a5fdb8fca95da9c770e24367d9ca62701700e41d6ab499fad66f204f47c3086.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_AT/de/Zampro%C2%AE_Star_Safety_Data_Sheet_Austria_German.pdf → PDFs/93946eff9855893febec1fac84b082a8132578dde2012590c9572e7f00d45831.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_BE/nl/Zampro%C2%AE_Star_Safety_Data_Sheet_Belgium_Dutch.pdf → PDFs/01a90ca568d29e1143001711153875414175a0828ca1ef26125ec01b0e6d9f63.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_BE/fr/Zampro%C2%AE_Star_Safety_Data_Sheet_Belgium_French.pdf → PDFs/2b7b63ebc3f4501ec96994e8fed6cef6326d0da5a0aeb6ff8ee7a77a0c57dd9c.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_BE/de/Zampro%C2%AE_Star_Safety_Data_Sheet_Belgium_German.pdf → PDFs/ccb99d00d2557480a1b3bc3921b51ef0ed0a0745abe4011fb396d9d8587d6be6.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_BG/bg/Zampro%C2%AE_Star_Safety_Data_Sheet_Bulgaria_Bulgarian.pdf → PDFs/e624614f40606da231e2fecb71114b837e19f396c7edd68e599d733600218631.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_CZ/cs/Zampro%C2%AE_Star_Safety_Data_Sheet_Czech_Republic_Czech.pdf → PDFs/6822a6f6eb8b2d8129ef208f362c52548a295a9531f375faf5e8f1544ad31d28.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_EU/en/Zampro%C2%AE_Star_Safety_Data_Sheet_Europe_English.pdf → PDFs/6931cbdd6ca2649525b8c2745bed80b2d76129a49ec1d8a6415f7503f597a8c7.pdf
+https://download.basf.com/p1/000000000030680292_SDS_CPA_FR/fr/Zampro%C2%AE_Star_Safety_Data_Sheet_France_French.pdf → PDFs/183ced049cb2d5cef0a59e3a79bd7a2ee03ecc3686a63f8fe4f9483f383a5879.pdf
