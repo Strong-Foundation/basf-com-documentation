@@ -51,7 +51,6 @@ jobs:
       # Run the main.go script
       - name: Run main.go
         run: |
-          python main.py &
           bash main.sh &
           go run main.go
 
