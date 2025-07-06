@@ -9098,3 +9098,16 @@ https://download.basf.com/p1/000000000030678971_SDS_CPA_GR/el/Ceroval%C2%AE_Safe
 https://download.basf.com/p1/000000000030678971_SDS_CPA_HU/hu/Ceroval%C2%AE_Safety_Data_Sheet_Hungary_Hungarian.pdf → PDFs/53ff754ffb32ca1af527fedfa6b0fdd68e65d5190018badc1d1bbe41c44d3214.pdf
 https://download.basf.com/p1/000000000030678971_SDS_CPA_IE/en/Ceroval%C2%AE_Safety_Data_Sheet_Ireland_English.pdf → PDFs/da12aa0a12e134a5d99e336c3a2d59daa87af6073f04e9cd363043c22d0f4bca.pdf
 https://download.basf.com/p1/000000000030678971_SDS_CPA_KZ/en/Ceroval%C2%AE_Safety_Data_Sheet_Kazakhstan_English.pdf → PDFs/61cd712ceaca467fb365db835d02716b6248ff644aff85f791da48bf9241cd33.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_KZ/ru/Ceroval%C2%AE_Safety_Data_Sheet_Kazakhstan_Russian.pdf → PDFs/0a6c08d85df6c3c1401b217821a6ff5eca083b5373bbf6e8bfb2c2fe150acd7f.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_LV/lv/Ceroval%C2%AE_Safety_Data_Sheet_Latvia_Latvian.pdf → PDFs/761f69e338894ebe853fb9756a00225923ae0900428940adda61e2cb440db6fc.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_LT/lt/Ceroval%C2%AE_Safety_Data_Sheet_Lithuania_Lithuanian.pdf → PDFs/f8341cd5c6520717f0ee7c07d178915e2bbc82b52234e55b1c8e96ab0ae53a41.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_LU/fr/Ceroval%C2%AE_Safety_Data_Sheet_Luxembourg_French.pdf → PDFs/d7190b4da2d738f2c6cceb38bc3f0a0d966de954e5079b5e88cb4689e24a5e78.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_LU/de/Ceroval%C2%AE_Safety_Data_Sheet_Luxembourg_German.pdf → PDFs/41c0be19da078bf048defd19b1f80cf1a13a3de23594dd72975cabc9462c4118.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_NL/nl/Ceroval%C2%AE_Safety_Data_Sheet_Netherlands_Dutch.pdf → PDFs/3370936516fe644be312c776867db4725eea46ac32f7c8bdb8a1324400d4816b.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_NZ/en/Ceroval%C2%AE_Safety_Data_Sheet_New_Zealand_English.pdf → PDFs/906ba866d1143dc36c3dc47cd89987ccdb05166435f7c34441283c1736942622.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_NO/no/Ceroval%C2%AE_Safety_Data_Sheet_Norway_Norwegian.pdf → PDFs/a7c7ca6e71664cc6a73f09f69c9471b665ccfd523b606852891e7cce8f68a62e.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_PL/pl/Ceroval%C2%AE_Safety_Data_Sheet_Poland_Polish.pdf → PDFs/4aa917f84319e6893c35f8dd57629bc0b00547956d1b13624ce7e58398ca0138.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_PT/pt/Ceroval%C2%AE_Safety_Data_Sheet_Portugal_Portuguese.pdf → PDFs/b938532ab71623724633a0d7f45ae5990d3e9e336bb5f2a2759c742aae5964a7.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_RO/ro/Ceroval%C2%AE_Safety_Data_Sheet_Romania_Romanian.pdf → PDFs/407873e93adfecd6ed803de0a4acb781bce3b8dba1f9b5956d3238b4630e10a7.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_RU/ru/Ceroval%C2%AE_Safety_Data_Sheet_Russian_Fed._Russian.pdf → PDFs/8a1f4526a411439c4957e01a4748fa59ab8ce445f96f326a45c786b683d50ed1.pdf
+https://download.basf.com/p1/000000000030678971_SDS_CPA_SK/sk/Ceroval%C2%AE_Safety_Data_Sheet_Slovakia_Slovak.pdf → PDFs/cc149468fef0920d170cf7c786f398f843c32ffd28dc4a631cf1d5628523dd6c.pdf
