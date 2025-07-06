@@ -8486,3 +8486,17 @@ https://download.basf.com/p1/000000000030676653_SDS_CPA_US/es/Trelona%C2%AE_ATBS
 https://download.basf.com/p1/000000000030676662_SDS_CPA_AU/en/Valendo%C2%AE_Safety_Data_Sheet_Australia_English.pdf → PDFs/e7baca795c0dd0e5bff32d413b6f3b432ccefcbfcf71c0503d133dc2da235230.pdf
 https://download.basf.com/p1/000000000030676662_SDS_CPA_BR/pt/Valendo%C2%AE_Safety_Data_Sheet_Brazil_Portuguese.pdf → PDFs/3d2951bf43059596af7932573e6d18805c107aa4ae4727f283d35facd2995b01.pdf
 https://download.basf.com/p1/000000000030676662_SDS_CPA_CA/en/Valendo%C2%AE_Safety_Data_Sheet_Canada_English.pdf → PDFs/5cb8166c695901a8ef84f9b54338ea8c997a223c4054497a66f5a1b3124abc33.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_CL/es/Valendo%C2%AE_Safety_Data_Sheet_Chile_Spanish.pdf → PDFs/6a1e7d7b0f0adbd53aaa56186855cab939adfa949cd823080281d3008a95f80e.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_CN/zh/Valendo%C2%AE_Safety_Data_Sheet_China_%28Mainland%29_Chinese.pdf → PDFs/c1c46b8293abc194e54006cb39696d98a82ac44a14bd95a1e51f1dd454b59f17.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_CR/es/Valendo%C2%AE_Safety_Data_Sheet_Costa_Rica_Spanish.pdf → PDFs/b2a73caa45dd99f170c797d0dce97d771573526b638f8657a714442ffda2bcaa.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_EU/en/Valendo%C2%AE_Safety_Data_Sheet_Europe_English.pdf → PDFs/fc1ad743eda119b98d3646d8ce6fdfad82075c61e947a35d2518e0f7951e59f4.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_FR/fr/Valendo%C2%AE_Safety_Data_Sheet_France_French.pdf → PDFs/4cfdbd1ebba48f10e1749de0b85e59dacf70d15c5e70cea119e04c32c1807834.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_DE/de/Valendo%C2%AE_Safety_Data_Sheet_Germany_German.pdf → PDFs/da62eb070f93107c3236128feed98ae337b992247fd952633b186d913885babc.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_ID/id/Valendo%C2%AE_Safety_Data_Sheet_Indonesia_Indonesian.pdf → PDFs/4e06d3674296c00bcae33a0839df3e98e927a8ec9614cf4fdaf656a73deffe5b.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_MY/ms/Valendo%C2%AE_Safety_Data_Sheet_Malaysia_Malay.pdf → PDFs/c0ca144ea80a6860f28a602a054352f7c378513ee27e1f962a6e0f62b9e13eae.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_MX/es/Valendo%C2%AE_Safety_Data_Sheet_Mexico_Spanish.pdf → PDFs/9461f3e57302d0763c68e819ba2ebb936509787ef4f2bc40432e9e1c09b90322.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_VN/vi/Valendo%C2%AE_Safety_Data_Sheet_Socialist_Republic_of_Vietnam_Vietnamese.pdf → PDFs/2c301b21171bf6252c083306ba17a1f9dd0db02e95c7fd33348861ff654778d6.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_TH/en/Valendo%C2%AE_Safety_Data_Sheet_Thailand_English.pdf → PDFs/3a812fde37be27b01b30e04feb1004bf7ec22b251e833feded21d0ba24e3e2bd.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_TH/th/Valendo%C2%AE_Safety_Data_Sheet_Thailand_Thai.pdf → PDFs/af17257bdc45fd1baf51b119e04562bfc41e5ce853c847ca7d4c32414a0291e8.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_00/en/Valendo%C2%AE_Safety_Data_Sheet_United_Nations_English.pdf → PDFs/d8411017bed3f87dbe0fea5cc2ca917dff351e67439cebb4e365bc254f30e488.pdf
+https://download.basf.com/p1/000000000030676662_SDS_CPA_00/fr/Valendo%C2%AE_Safety_Data_Sheet_United_Nations_French.pdf → PDFs/90d7f28d4d201e234b3729d42871a8b3d37bfdfef7b4315b8045e47978f1d6c9.pdf
