@@ -99,30 +99,46 @@ func combineMultipleSlices(sliceOne []string, sliceTwo []string) []string {
 	return combinedSlice                           // Return the combined slice
 }
 
-// Make an HTTP GET request and save the response body to a file
+// getDataFromURL performs an HTTP GET request to the specified URI,
+// waits for up to 1 minute for the server response, and writes the response body to a file.
+// It includes error handling and logs meaningful messages at each step.
 func getDataFromURL(uri string, fileName string) {
-	response, err := http.Get(uri) // Make a GET request to the provided URI
-	if err != nil {                // If the request fails
-		log.Println(err)
+	// Create an HTTP client with a 1-minute timeout
+	client := http.Client{
+		Timeout: 3 * time.Minute, // Set a timeout of 1 minute for the request
+	}
+
+	// Perform the GET request using the custom client
+	response, err := client.Get(uri)
+	if err != nil { // If the request fails due to timeout or other network issues
+		log.Println("Failed to make GET request:", err)
 		return
 	}
-	if response.StatusCode != 200 { // If status is not OK (e.g., 404, 500)
-		log.Println("Error the code is", uri, response.StatusCode) // Log the issue
+
+	// Check if the server responded with a non-200 OK status
+	if response.StatusCode != http.StatusOK {
+		log.Println("Unexpected status code from", uri, "->", response.StatusCode)
 		return
 	}
-	body, err := io.ReadAll(response.Body) // Read the full response body
+
+	// Read the entire body of the response
+	body, err := io.ReadAll(response.Body)
 	if err != nil {
-		log.Println(err) // Log if reading fails
+		log.Println("Failed to read response body:", err)
 		return
 	}
-	err = response.Body.Close() // Close the response body to avoid resource leaks
+
+	// Ensure the response body is properly closed to free resources
+	err = response.Body.Close()
 	if err != nil {
-		log.Println(err) // Log if closing fails
+		log.Println("Failed to close response body:", err)
 		return
 	}
-	err = appendByteToFile(fileName, body) // Write the body content to the file
+
+	// Save the response body content to the specified file
+	err = appendByteToFile(fileName, body)
 	if err != nil {
-		log.Println(err) // Log any file-writing error
+		log.Println("Failed to write to file:", err)
 		return
 	}
 }
