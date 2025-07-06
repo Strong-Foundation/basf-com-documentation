@@ -8910,3 +8910,17 @@ https://download.basf.com/p1/000000000030678276_SDS_GEN_VN/vi/Infinergy%C2%AE_SP
 https://download.basf.com/p1/000000000030678276_SDS_GEN_ES/es/Infinergy%C2%AE_SP_25-130U000_Safety_Data_Sheet_Spain_Spanish.pdf → PDFs/c89ece6121466621adfea3cc76e6296b66182cdf44487e87a45508d9d4ff1902.pdf
 https://download.basf.com/p1/000000000030678276_SDS_GEN_CH/fr/Infinergy%C2%AE_SP_25-130U000_Safety_Data_Sheet_Switzerland_French.pdf → PDFs/20b3ead586fca0022b8dbee5112a98d4c8bdbe0a98bb1a9a3e2f4e8b3d2f9f10.pdf
 https://download.basf.com/p1/000000000030678276_SDS_GEN_CH/de/Infinergy%C2%AE_SP_25-130U000_Safety_Data_Sheet_Switzerland_German.pdf → PDFs/792ac2b8551eca656c86c7ae315d8d1ab6f360beafcbd9c357441ce3b4ed3eb6.pdf
+https://download.basf.com/p1/000000000030678276_SDS_GEN_TW/zf/Infinergy%C2%AE_SP_25-130U000_Safety_Data_Sheet_Taiwan_Chinese_%28Taiwan%29.pdf → PDFs/f6ac18f0dcd73e85c89a61db600a20bdc3da31dd91bbd571f5d532b610121a46.pdf
+https://download.basf.com/p1/000000000030678276_SDS_GEN_00/en/Infinergy%C2%AE_SP_25-130U000_Safety_Data_Sheet_United_Nations_English.pdf → PDFs/9c845bfcc55041947b834914014bb9c8ab43cca08371403587202bb896a178d9.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_BE/nl/Imtrex%C2%AE_EC_Safety_Data_Sheet_Belgium_Dutch.pdf → PDFs/86f8ce23caf2736bc29734fed1a554f7cd74a89fe3d82a8f0c6be4018693e21b.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_BE/fr/Imtrex%C2%AE_EC_Safety_Data_Sheet_Belgium_French.pdf → PDFs/9b7e3ec1c1fe91187028a1bcfdbe5b258bf1e0cc4e06d2c85bad16d7ad9c6b06.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_BE/de/Imtrex%C2%AE_EC_Safety_Data_Sheet_Belgium_German.pdf → PDFs/32d4b9ae8bc8fc34c184b230bde43ae4f9ebf49b7abc85db08b0d7239e51a7ca.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_CZ/cs/Imtrex%C2%AE_EC_Safety_Data_Sheet_Czech_Republic_Czech.pdf → PDFs/9d36298678b7f8e607a17f363ba00c0f3e811de6d9bb660a0d937f8f64d0e30b.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_EU/en/Imtrex%C2%AE_EC_Safety_Data_Sheet_Europe_English.pdf → PDFs/c945b22a7389047c1a50d4ef23170f3d28b6920ba6037186251d5fb78e6d778c.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_FI/fi/Imtrex%C2%AE_EC_Safety_Data_Sheet_Finland_Finnish.pdf → PDFs/0245db54fd8c8664c05df8656c86d5822eb5739e31cc5290192a02c94f46dbb0.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_FR/fr/Imtrex%C2%AE_EC_Safety_Data_Sheet_France_French.pdf → PDFs/cec96d9c93dfc538a396051e22ce620753a54259faaaa667a7e355eccf144da6.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_DE/de/Imtrex%C2%AE_EC_Safety_Data_Sheet_Germany_German.pdf → PDFs/a50b1763d239558b78ab16fcc8e7a014105dc9b268b776fffd175be41417bde0.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_HU/hu/Imtrex%C2%AE_EC_Safety_Data_Sheet_Hungary_Hungarian.pdf → PDFs/f8e354fe6263eb8a329a02759e397346522cbb56430c5bb1eb1ce3cd7d3c7f52.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_LV/lv/Imtrex%C2%AE_EC_Safety_Data_Sheet_Latvia_Latvian.pdf → PDFs/bc9d8b0a14c8373b26d0637d2afb2533391cee8ce9599ecf80d21b5ac18f4087.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_PL/pl/Imtrex%C2%AE_EC_Safety_Data_Sheet_Poland_Polish.pdf → PDFs/536926042fa6e884a1594a591e7a5788fb54afb7d7a22e2d8d17dca8bddfe736.pdf
+https://download.basf.com/p1/000000000030678388_SDS_CPA_RO/ro/Imtrex%C2%AE_EC_Safety_Data_Sheet_Romania_Romanian.pdf → PDFs/f948d9442d71ac256e8c7ec51b149d5903e0bcd73f5ff61db62c86802db0f291.pdf
