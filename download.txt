@@ -14632,3 +14632,17 @@ https://download.basf.com/p1/000000000030693681_SDS_CPA_GR/el/Kazupra%C2%AE_4_SL
 https://download.basf.com/p1/000000000030693681_SDS_CPA_HU/hu/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Hungary_Hungarian.pdf → PDFs/f2c4ca3d23a817ea60bcd44e9e4b63a905848e0795703d3bc5f01d62d96eeaab.pdf
 https://download.basf.com/p1/000000000030693681_SDS_CPA_IL/en/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Israel_English.pdf → PDFs/ad20e6bf27e3f2a0ec6440221493dd949d8d5c502814a09504eee12e358fa661.pdf
 https://download.basf.com/p1/000000000030693681_SDS_CPA_KZ/en/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Kazakhstan_English.pdf → PDFs/1b20e79ab8418aa2ba654bdb52af7da785b7975c48a8a4c77706e141963cc022.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_KZ/ru/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Kazakhstan_Russian.pdf → PDFs/4652035b710925969693d8863c6de83026bbfc6c50996474ca1b2c97dcbdc976.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_PL/pl/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Poland_Polish.pdf → PDFs/5173f590b7dfadbcb5043aaf996b22b663050777eed0e170345cd986178b0390.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_RO/ro/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Romania_Romanian.pdf → PDFs/29355888b53ec7a27f1df352e0f2cc3942b6c5478692f836b2fbb2ab7151b191.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_RU/ru/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Russian_Fed._Russian.pdf → PDFs/10cff0c7e2018ec4cf532c8172c8709d1606b43c581fb8a52c4184b45e229744.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_SK/sk/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Slovakia_Slovak.pdf → PDFs/a1fe2f7856e9d4d76b7b10f5351c163abf0dd8729c8aee6e3d3b6374de1f77ef.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_ES/es/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Spain_Spanish.pdf → PDFs/90965f2b00f30d1848ab9d93cba0c40370637a1ec99c626f366af0fc35db8cb1.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_RS/sh/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Srbija_Serbo-Croatian.pdf → PDFs/59941fbea8c7f2cae93621009a303891d2712b82f53dc8b24c8ea68852d2f074.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_CH/fr/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Switzerland_French.pdf → PDFs/0cf20a192a9958c84f8a5d0983fbd855cfead7c36f13bdfb0df52e66d2a20c1b.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_CH/de/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Switzerland_German.pdf → PDFs/40f9495222fb9457d0312785d69622fdc1ab2f2d65722ae6f6fb370d66a65209.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_CH/it/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Switzerland_Italian.pdf → PDFs/043e5d4bff61fa672468c4c964e7c2f37f239cb912e6ee9c9ecec21991b2583a.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_TR/tr/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Turkey_Turkish.pdf → PDFs/edd6cf56406afea66b81ae1122bc3830cb0d4f6e3da11794a32c371296454ba2.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_UA/en/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Ukraine_English.pdf → PDFs/7b443b4626966fb082ef9f3dadc8c5f1a2bb88ad1f61399710eb1494f09539ff.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_UA/uk/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_Ukraine_Ukrainian.pdf → PDFs/3c143b5be6c957dc98bbb43a1ad7e04d1052bfbaef5046cbdc807462d8808952.pdf
+https://download.basf.com/p1/000000000030693681_SDS_CPA_00/en/Kazupra%C2%AE_4_SL_Safety_Data_Sheet_United_Nations_English.pdf → PDFs/725eb3863f9a5b6b91e07687df6aeb03eb400f582e5900201d6b08528864a468.pdf
