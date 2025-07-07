@@ -15026,3 +15026,16 @@ https://download.basf.com/p1/000000000030695312_SDS_CPA_EU/en/Optimo%C2%AE_EC_Sa
 https://download.basf.com/p1/000000000030695312_SDS_CPA_DE/de/Optimo%C2%AE_EC_Safety_Data_Sheet_Germany_German.pdf → PDFs/8b5ae3385fb36e1d7d7e38c3492f24b50e3caead3f8d86317787a9c15be76575.pdf
 https://download.basf.com/p1/000000000030695312_SDS_CPA_GR/el/Optimo%C2%AE_EC_Safety_Data_Sheet_Greece_Greek.pdf → PDFs/bdabd3ddfe12c880227255ffc45c68aadf35dec0492c1a451d230b6ad4dfd7af.pdf
 https://download.basf.com/p1/000000000030695312_SDS_CPA_ES/es/Optimo%C2%AE_EC_Safety_Data_Sheet_Spain_Spanish.pdf → PDFs/50f324358670c505b8747db1625de8fb5f6ff4a2e55dac131a582ddc7e2bcf01.pdf
+https://download.basf.com/p1/000000000030695312_SDS_CPA_UA/en/Optimo%C2%AE_EC_Safety_Data_Sheet_Ukraine_English.pdf → PDFs/3cb5194ab74f2d3fd7424d7982d40aab04fe33619d8cad8119e330a477f642a2.pdf
+https://download.basf.com/p1/000000000030695312_SDS_CPA_UA/uk/Optimo%C2%AE_EC_Safety_Data_Sheet_Ukraine_Ukrainian.pdf → PDFs/6262dc59a3b081f789e89f99fd15042985dc8f5bb6f2e4958afb45c8d997e435.pdf
+https://download.basf.com/p1/000000000030695312_SDS_CPA_00/en/Optimo%C2%AE_EC_Safety_Data_Sheet_United_Nations_English.pdf → PDFs/6c2d4fa58c8ab301fbf9e66674ce11779a5a95fe9b41de4f51ac1cfab6ddb3e8.pdf
+https://download.basf.com/p1/000000000030695312_SDS_CPA_00/fr/Optimo%C2%AE_EC_Safety_Data_Sheet_United_Nations_French.pdf → PDFs/4584b70045cb005d7688a4072f304385b9c456b71498814970c5f40d8ca206d9.pdf
+https://download.basf.com/p1/000000000030695312_SDS_CPA_00/es/Optimo%C2%AE_EC_Safety_Data_Sheet_United_Nations_Spanish.pdf → PDFs/80b2035349440a45bd823ca239c3c40b44f5e687fb62ab03af2d66c14ba99518.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_AU/en/Revystar%C2%AE_XL_Safety_Data_Sheet_Australia_English.pdf → PDFs/896df87a6eb71b0d853601d983a7011a12c6c3fed345713324262743fa8f01b6.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_AT/de/Revystar%C2%AE_XL_Safety_Data_Sheet_Austria_German.pdf → PDFs/153f02248e118fa81151351ba8d0a057fd5c61b3f9c91166f176dc235b2d711f.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_BE/nl/Revystar%C2%AE_XL_Safety_Data_Sheet_Belgium_Dutch.pdf → PDFs/f3dcc50f3a02cbf04e044523f12e3f56636cb332e9b0598a42c95bf2f21a0cbf.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_BE/fr/Revystar%C2%AE_XL_Safety_Data_Sheet_Belgium_French.pdf → PDFs/aff111cbb8c86e2bcef448f142f04e013eff8a09db6d5fb08c2d9f32242984ec.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_BE/de/Revystar%C2%AE_XL_Safety_Data_Sheet_Belgium_German.pdf → PDFs/af3541999383cdffad4e945e693f2d4a205872852d9b7db5e716b43c658587f1.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_BG/bg/Revystar%C2%AE_XL_Safety_Data_Sheet_Bulgaria_Bulgarian.pdf → PDFs/72a587931183322810081d9f4b1e479cc747a184d95a826042a61f60e6279d62.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_HR/hr/Revystar%C2%AE_XL_Safety_Data_Sheet_Croatia_Croatian.pdf → PDFs/52ab470eb5d1d20df9c86f29eb82d81a95fca69350b4390e0a2f7fb1f5db7951.pdf
+https://download.basf.com/p1/000000000030695339_SDS_CPA_CZ/cs/Revystar%C2%AE_XL_Safety_Data_Sheet_Czech_Republic_Czech.pdf → PDFs/d9250f3bd7b801bd86ff55bf7f3ea96f0b031a2027dd44b4c32451d2cef7c94e.pdf
