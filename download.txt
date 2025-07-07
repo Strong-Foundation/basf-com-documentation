@@ -11432,3 +11432,16 @@ https://download.basf.com/p1/000000000030691900_SDS_GEN_00/fr/Mees_%28TM%29_Safe
 https://download.basf.com/p1/000000000030691900_SDS_GEN_00/es/Mees_%28TM%29_Safety_Data_Sheet_United_Nations_Spanish.pdf → PDFs/3dfd8c6029fc31aca43121a03c1fb3812680b1bbcea31d2b3d54c3d1526c46c0.pdf
 https://download.basf.com/p1/000000000030692177_SDS_CPA_AT/de/Perseus%C2%AE_Safety_Data_Sheet_Austria_German.pdf → PDFs/b315b8793ce06f0a3b60a56998fd56bc62cb2c49c8a281568c22b5eb755d5b00.pdf
 https://download.basf.com/p1/000000000030692177_SDS_CPA_BE/nl/Perseus%C2%AE_Safety_Data_Sheet_Belgium_Dutch.pdf → PDFs/c6e62ad932b1c84bafc5859babd83e8221f8c842a342d1c029ab4e24520c5573.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_BE/de/Perseus%C2%AE_Safety_Data_Sheet_Belgium_German.pdf → PDFs/d2ee0347f061e77bf0dc52d4ae64878fc9636b5a7aaa0f008599954c8b6981e7.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_BG/bg/Perseus%C2%AE_Safety_Data_Sheet_Bulgaria_Bulgarian.pdf → PDFs/b8a0596ac7f0ba9de615c70b8cc4a47d2a99e7e3a05427209bb37da439562e0b.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_CL/es/Perseus%C2%AE_Safety_Data_Sheet_Chile_Spanish.pdf → PDFs/dba01981125aed4441ea354e2674860db9cf9e7c4459419aec8309f604daa6b4.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_CN/zh/Perseus%C2%AE_Safety_Data_Sheet_China_%28Mainland%29_Chinese.pdf → PDFs/ba6b7b5666cb1005238bba963efa9677d508965a0b1b0b1516b9fa5ff8399f4e.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_CR/es/Perseus%C2%AE_Safety_Data_Sheet_Costa_Rica_Spanish.pdf → PDFs/53b80ddccf0ef59777faaba43d5c48dbf9016f0561d3221568d490b1db69f45b.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_HR/hr/Perseus%C2%AE_Safety_Data_Sheet_Croatia_Croatian.pdf → PDFs/0d10a770ce5292b3ca9f8fd53219cabf7ff722469b67141420ee5e1369572f7f.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_CZ/cs/Perseus%C2%AE_Safety_Data_Sheet_Czech_Republic_Czech.pdf → PDFs/c3afdbba69013298b30df57ab96b094758c9b9f6e251d33a180f5132cce278ac.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_EC/es/Perseus%C2%AE_Safety_Data_Sheet_Ecuador_Spanish.pdf → PDFs/03ed073e45c41a47c5792b50ebaab81d522c07a83a29694548d0a03e455f2597.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_EU/en/Perseus%C2%AE_Safety_Data_Sheet_Europe_English.pdf → PDFs/8096bac96677317282945fe77470143be46c0e30485aeb1e8cb65d63267ff4e8.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_FR/fr/Perseus%C2%AE_Safety_Data_Sheet_France_French.pdf → PDFs/bd4adfa4e7b3020ffe1cdfb23dc044544e52b3921a7905909d1ee4387df5a3b3.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_DE/de/Perseus%C2%AE_Safety_Data_Sheet_Germany_German.pdf → PDFs/5e6c6ec72384b5448a91a23de405579d7795bbc349fac9a55786c7b828093877.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_GB/en/Perseus%C2%AE_Safety_Data_Sheet_Great_Britain_English.pdf → PDFs/afa57a514071eacbbaafab029a0e33fb7de2fcf5172986640ece0f4d097fcb94.pdf
+https://download.basf.com/p1/000000000030692177_SDS_CPA_GR/el/Perseus%C2%AE_Safety_Data_Sheet_Greece_Greek.pdf → PDFs/a933fa1173f6f23b2ff5d6845fe2eb583ab6bf2afb9c92fb9220e926bbfd957b.pdf
