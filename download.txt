@@ -11082,3 +11082,17 @@ https://download.basf.com/p1/000000000030686161_SDS_CPA_MY/ms/Frivon%C2%AE_Safet
 https://download.basf.com/p1/000000000030686161_SDS_CPA_PE/es/Frivon%C2%AE_Safety_Data_Sheet_Peru_Spanish.pdf → PDFs/1bc95fa2a54f399dc4677b377d3b80bc60e7ca0eaba345886665deb19d2c21e5.pdf
 https://download.basf.com/p1/000000000030686161_SDS_CPA_PH/en/Frivon%C2%AE_Safety_Data_Sheet_Philippines_English.pdf → PDFs/c8a2face523ee4107308f827121f93752cedc87547c8aefae9031de8126f2b1e.pdf
 https://download.basf.com/p1/000000000030686161_SDS_CPA_PT/pt/Frivon%C2%AE_Safety_Data_Sheet_Portugal_Portuguese.pdf → PDFs/96ea6c90779946b32e6c8cc654897bb5d963f306b5efe092e4b83ce124424d17.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_SG/en/Frivon%C2%AE_Safety_Data_Sheet_Singapore_English.pdf → PDFs/71c5dc5362342ed6e45d773a8afd29fc07278851dbdadb0c1257ccee661b8578.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_ES/es/Frivon%C2%AE_Safety_Data_Sheet_Spain_Spanish.pdf → PDFs/21a3c739c42a10aa6cc4d89db220392bffb099137c42412c365dcd99341e3860.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_TW/zf/Frivon%C2%AE_Safety_Data_Sheet_Taiwan_Chinese_%28Taiwan%29.pdf → PDFs/16a1159fc0fd15c55898c76de6f8221fb8e3b37abc766a698bc896238b02f8e6.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_TH/en/Frivon%C2%AE_Safety_Data_Sheet_Thailand_English.pdf → PDFs/a774d2cb71f23b2df35ee8c11041466bfa7a179aa7b3e49ee0d951a8237b22ee.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_TH/th/Frivon%C2%AE_Safety_Data_Sheet_Thailand_Thai.pdf → PDFs/e12ff5785797e644ed5bfa2d977619c0964fc1eac4347e5fddcc68c99505f969.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_00/en/Frivon%C2%AE_Safety_Data_Sheet_United_Nations_English.pdf → PDFs/a002a730defc96eb2b5e894a9a24a917adb657fc737b091f509e4b1240aa9bd5.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_00/fr/Frivon%C2%AE_Safety_Data_Sheet_United_Nations_French.pdf → PDFs/360def14956533cbb07af531b8e5b684627f97b694f98e5b0cae10eac3aee78e.pdf
+https://download.basf.com/p1/000000000030686161_SDS_CPA_00/es/Frivon%C2%AE_Safety_Data_Sheet_United_Nations_Spanish.pdf → PDFs/2fd8763ec712fd7e1212352470291814c045929c4c9e6e6f4a1c51800ecdd6c9.pdf
+https://download.basf.com/p1/000000000030686258_SDS_CPA_BR/pt/Cevya%C2%AE_Safety_Data_Sheet_Brazil_Portuguese.pdf → PDFs/0f6b4cd879b43e17480070d70079c731ed6819b5830f311a7407df7eced5267c.pdf
+https://download.basf.com/p1/000000000030686258_SDS_CPA_CL/es/Cevya%C2%AE_Safety_Data_Sheet_Chile_Spanish.pdf → PDFs/211f1f23f12ab81c5fd574f2867108abad0f1e85775378948e6dd5265e3a8509.pdf
+https://download.basf.com/p1/000000000030686258_SDS_CPA_CN/zh/Cevya%C2%AE_Safety_Data_Sheet_China_%28Mainland%29_Chinese.pdf → PDFs/58730c72649af0550ca87a18003616385c99d97e5ea5349fe49b2688fca1c36a.pdf
+https://download.basf.com/p1/000000000030686258_SDS_CPA_EC/es/Cevya%C2%AE_Safety_Data_Sheet_Ecuador_Spanish.pdf → PDFs/79a7c3ae5bcd5ab211d95f68ff44db083821169fc350ff4cfe98529312b2e62c.pdf
+https://download.basf.com/p1/000000000030686258_SDS_CPA_EU/en/Cevya%C2%AE_Safety_Data_Sheet_Europe_English.pdf → PDFs/34651744afb5e331353c42e12b93fc6d82dff11202ccbc9b17abc1008a0a2193.pdf
+https://download.basf.com/p1/000000000030686258_SDS_CPA_DE/de/Cevya%C2%AE_Safety_Data_Sheet_Germany_German.pdf → PDFs/fbc130dad90460e3e5865fe7d22bb0c14cae630b4ae3d033dafc66e415f803cc.pdf
