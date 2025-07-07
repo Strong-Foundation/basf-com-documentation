@@ -11284,3 +11284,17 @@ https://download.basf.com/p1/000000000030687040_SDS_GEN_00/es/HySorb%C2%AE_T_660
 https://download.basf.com/p1/000000000030687151_ISP_GEN_RW/en/Joncryl%C2%AE_PDX_7741_Information_Sheet_Product_Safety_English.pdf → PDFs/dd28148cb217808ea18379138a9e330ad9b6f087d20c625f08e4f508879e0dd3.pdf
 https://download.basf.com/p1/000000000030687164_SDS_CPA_AR/es/Fastac%C2%AE_11_Safety_Data_Sheet_Argentina_Spanish.pdf → PDFs/a25edba6b866c0f57d98b530125997982e514bbad430d144e5de8e8e3880802b.pdf
 https://download.basf.com/p1/000000000030687164_SDS_CPA_BE/nl/Fastac%C2%AE_11_Safety_Data_Sheet_Belgium_Dutch.pdf → PDFs/1984cd205b91cddef780149850a3923efb1303425316011f9cd2eb6c7070ecd4.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_BE/de/Fastac%C2%AE_11_Safety_Data_Sheet_Belgium_German.pdf → PDFs/71e0156482e1539c166324cc6ba7f5ae0cfaa8ffad3f3a221fdb2885a953e462.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_BR/pt/Fastac%C2%AE_11_Safety_Data_Sheet_Brazil_Portuguese.pdf → PDFs/2c56a09e7f60866d34b1221977db51fcc161496a813442aefa7a96733e356b18.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_BG/bg/Fastac%C2%AE_11_Safety_Data_Sheet_Bulgaria_Bulgarian.pdf → PDFs/a33a9d4d7f1fed0ec49b427f73a8368e151b064893ecac7c5c17554f368955d2.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_CN/zh/Fastac%C2%AE_11_Safety_Data_Sheet_China_%28Mainland%29_Chinese.pdf → PDFs/d57199a3c038ef42b60f70e3ce069ec2afff29a957ca56d88960ffef25107fb0.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_CO/es/Fastac%C2%AE_11_Safety_Data_Sheet_Colombia_Spanish.pdf → PDFs/ef770f9ad320d4806d1a002535cf3f28ec848a651e5013a235e921ccf18ab690.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_CR/es/Fastac%C2%AE_11_Safety_Data_Sheet_Costa_Rica_Spanish.pdf → PDFs/aa52270bb866a933e3d0813755d48d3a42fa9ba1a31a4b613afb483a6e74391d.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_EU/en/Fastac%C2%AE_11_Safety_Data_Sheet_Europe_English.pdf → PDFs/4007db2cddbf47de4916e373df35df6d7c89af97043a4150a461e260e55d3c04.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_FR/fr/Fastac%C2%AE_11_Safety_Data_Sheet_France_French.pdf → PDFs/0ed212f327cae5b1b82082a4eee0d8c780a1cb4329113d3f8fb33dc77efa67c9.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_DE/de/Fastac%C2%AE_11_Safety_Data_Sheet_Germany_German.pdf → PDFs/e23c46ec79f8869c849cf2b908775d566b5d9af5b69e62a651f774f3fe502bed.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_GR/el/Fastac%C2%AE_11_Safety_Data_Sheet_Greece_Greek.pdf → PDFs/cb7c5b222d4a3408409b86203a6012c9152df04a740b732734dcb9e0e85c8df3.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_KZ/en/Fastac%C2%AE_11_Safety_Data_Sheet_Kazakhstan_English.pdf → PDFs/56d94f87ef7607721b48172e1ced7154f3814e5ce13d3cea5a8a56fc527658fd.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_KZ/kk/Fastac%C2%AE_11_Safety_Data_Sheet_Kazakhstan_Kazakh.pdf → PDFs/9fadfeec22d88cd4e01275bc132f1ceddbd0da3fedaf32f00f28e28b700d0a34.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_KZ/ru/Fastac%C2%AE_11_Safety_Data_Sheet_Kazakhstan_Russian.pdf → PDFs/9523a055118608df437c22ebeab203578c5bb0ee9038db26018c0af546251c38.pdf
+https://download.basf.com/p1/000000000030687164_SDS_CPA_MY/ms/Fastac%C2%AE_11_Safety_Data_Sheet_Malaysia_Malay.pdf → PDFs/13df2e8237bafbce968bcfb06ba8cbde9df1795f17c0f2767e1026020b1bf137.pdf
