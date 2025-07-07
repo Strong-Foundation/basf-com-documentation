@@ -11493,3 +11493,16 @@ https://download.basf.com/p1/000000000030692183_SDS_CPA_ID/id/Charm%C2%AE_Safety
 https://download.basf.com/p1/000000000030692183_SDS_CPA_IE/en/Charm%C2%AE_Safety_Data_Sheet_Ireland_English.pdf → PDFs/3f81c56cf20dc02f19004828eefb4e6092b331172480e2ab129b8148425cdc98.pdf
 https://download.basf.com/p1/000000000030692183_SDS_CPA_JP/ja/Charm%C2%AE_Safety_Data_Sheet_Japan_Japanese.pdf → PDFs/123885beb6f2454aa0ae2dac7411890fbb7a921da3f90dab0b3ff0a110a80246.pdf
 https://download.basf.com/p1/000000000030692183_SDS_CPA_KZ/en/Charm%C2%AE_Safety_Data_Sheet_Kazakhstan_English.pdf → PDFs/be9b315be588faa0b0be4452c083c2a18db0af8fd49a2c3e3076523b23afcf54.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_KZ/ru/Charm%C2%AE_Safety_Data_Sheet_Kazakhstan_Russian.pdf → PDFs/13b1e452d36746408f0bb4306abba028c7345bb17d1b92ef5de57bed17d0059d.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_NL/nl/Charm%C2%AE_Safety_Data_Sheet_Netherlands_Dutch.pdf → PDFs/d98710fd0d3f26f9e2268b3a0ed53fec949c33e0d80cae120922a945402d2d76.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_PE/es/Charm%C2%AE_Safety_Data_Sheet_Peru_Spanish.pdf → PDFs/acdbec70884cab54f13c33558f64760ec5b22ce8d4b5aa5c277dd482ea20bb9b.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_PT/pt/Charm%C2%AE_Safety_Data_Sheet_Portugal_Portuguese.pdf → PDFs/40db0ab105ba475e397e9c93316da876bbe07414d83ee685adaa09ab61b4f8a4.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_RO/ro/Charm%C2%AE_Safety_Data_Sheet_Romania_Romanian.pdf → PDFs/f2f37408e5a3eb50f125fe00b254fb68b6a0a19cd765e0bfc4fff1a78c2aeecf.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_RU/ru/Charm%C2%AE_Safety_Data_Sheet_Russian_Fed._Russian.pdf → PDFs/711e66327734d96537e0e65bea26cae495aedea79b6e5846ea99112df4faf3e6.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_SG/en/Charm%C2%AE_Safety_Data_Sheet_Singapore_English.pdf → PDFs/00df980781de3fc7a35842029b3c2a0f249dd0f0ebb3670eaed217fff15efc51.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_SK/sk/Charm%C2%AE_Safety_Data_Sheet_Slovakia_Slovak.pdf → PDFs/4529b1c0011e0d7be2c528fa95be1adcc1eb9fc60189ae2d55a2684bb2650320.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_SI/sl/Charm%C2%AE_Safety_Data_Sheet_Slovenia_Slovenian.pdf → PDFs/3a5260db418238b54ee3577874561a06248d83b2b8fea34ef11bdf9bab1c69b6.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_ES/es/Charm%C2%AE_Safety_Data_Sheet_Spain_Spanish.pdf → PDFs/96adacd741dc3d6fc0276407a648da66584bb3ed4a73a2a26f16fc95578ed1d2.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_RS/en/Charm%C2%AE_Safety_Data_Sheet_Srbija_English.pdf → PDFs/76b6f97b5a15d6e478b3d96bc0da26925ee5c7cec6695a80730171df558486f4.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_RS/sh/Charm%C2%AE_Safety_Data_Sheet_Srbija_Serbo-Croatian.pdf → PDFs/058b82b47c89b6679455223e2b2a45ef0ec3d56052c295309c537abf9736683c.pdf
+https://download.basf.com/p1/000000000030692183_SDS_CPA_CH/fr/Charm%C2%AE_Safety_Data_Sheet_Switzerland_French.pdf → PDFs/a76ecf01205b5d8e18bf76d4b61658c2cfd68a298c2b9125bdf858688cfa9e01.pdf
