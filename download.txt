@@ -15685,3 +15685,16 @@ https://download.basf.com/p1/000000000030696977_SDS_CPA_AT/de/Premis%C2%AE_Plus_
 https://download.basf.com/p1/000000000030696977_SDS_CPA_BE/nl/Premis%C2%AE_Plus_Safety_Data_Sheet_Belgium_Dutch.pdf → PDFs/30967fce72ffe24cbead6ea4e87ee3287fc96b3e7eb4eef5df54c1218f65811e.pdf
 https://download.basf.com/p1/000000000030696977_SDS_CPA_BE/fr/Premis%C2%AE_Plus_Safety_Data_Sheet_Belgium_French.pdf → PDFs/998113c4df710bddae33996638764177a5d6fa29473acea3338e82dc00039a59.pdf
 https://download.basf.com/p1/000000000030696977_SDS_CPA_BE/de/Premis%C2%AE_Plus_Safety_Data_Sheet_Belgium_German.pdf → PDFs/d346552740f25ead32989e91adaef6aacaa0698f1a89f49147aa9d8c78389d4b.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_CZ/cs/Premis%C2%AE_Plus_Safety_Data_Sheet_Czech_Republic_Czech.pdf → PDFs/7d6e0f4b8d7ec94546cff7ce0b473cc04102a62f2dabf3fd99abb2e303c8de5c.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_DK/da/Premis%C2%AE_Plus_Safety_Data_Sheet_Denmark_Danish.pdf → PDFs/44d2552af45c571172345b856ef589c034ded5216cdec56fb15a189e12024222.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_EE/et/Premis%C2%AE_Plus_Safety_Data_Sheet_Estonia_Estonian.pdf → PDFs/ebf9a7954d42cb83cd803a1c4b1047ceb5be17795887fb82c0ad18fc91a54d3e.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_EU/en/Premis%C2%AE_Plus_Safety_Data_Sheet_Europe_English.pdf → PDFs/48ee244310d9bb911f3d9b7bf3abe9054da0b3de46a1a621574b1a58c360c2f3.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_FI/fi/Premis%C2%AE_Plus_Safety_Data_Sheet_Finland_Finnish.pdf → PDFs/f493e5f10dafdf9856c8145efedae5efa4524d5955a271e8a52956ad9e14c023.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_FR/fr/Premis%C2%AE_Plus_Safety_Data_Sheet_France_French.pdf → PDFs/5626f85877bd30b7adaccd1b91b98cddd70da6677a85eb4d607f6e133c3436f3.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_DE/de/Premis%C2%AE_Plus_Safety_Data_Sheet_Germany_German.pdf → PDFs/6b6e0e7f9f371eb21e044fddd7887fbf79ebd11a3c265d44eccb9168ed5d56d1.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_GB/en/Premis%C2%AE_Plus_Safety_Data_Sheet_Great_Britain_English.pdf → PDFs/613f2fa18133b0e115c64307c40c879385e3ea0f93bc379f93948637909c5a8b.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_IE/en/Premis%C2%AE_Plus_Safety_Data_Sheet_Ireland_English.pdf → PDFs/f779a209062ae122458673cfb48699850f014027850a53060e9ca805da77c659.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_LV/lv/Premis%C2%AE_Plus_Safety_Data_Sheet_Latvia_Latvian.pdf → PDFs/e979ac4393db22064d3d15617785f101bf476e2fb4571cb02f5dd4f9caff9707.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_LT/lt/Premis%C2%AE_Plus_Safety_Data_Sheet_Lithuania_Lithuanian.pdf → PDFs/7125f20db8318deedd2b3ff7b7eb30c7f4956624efa12c3bc30e84b799f9404d.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_LU/fr/Premis%C2%AE_Plus_Safety_Data_Sheet_Luxembourg_French.pdf → PDFs/6726835bfb72ac0dd95f10cc2bd687ac5ff374ece97620aa6b3397e7c991bc82.pdf
+https://download.basf.com/p1/000000000030696977_SDS_CPA_LU/de/Premis%C2%AE_Plus_Safety_Data_Sheet_Luxembourg_German.pdf → PDFs/3bb69122fd4b469debc9871b3db828b23c7b8d03616b209df7a3057e23b93c81.pdf
