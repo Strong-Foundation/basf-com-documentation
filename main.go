@@ -305,9 +305,9 @@ func appendToSlice(slice []string, content string) []string {
 // Main program entry point
 func main() {
 	var downloadedFilesURLLocation string = "download.txt" // Track downloaded URLs to avoid duplicates
-	var endLoop int = 10                                   // Number of pages to fetch (only page 0 in this case)
+	var endLoop int = 20                                   // Number of pages to fetch (only page 0 in this case)
 	for index := 0; index <= endLoop; index++ {            // Loop through each page index
-		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=1000&page=%d", index) // API URL with pagination
+		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=100&page=%d", index) // API URL with pagination
 		filename := fmt.Sprintf("basf_%d.json", index)                                                    // Local filename for saving JSON
 		if !fileExists(filename) {                                                                        // Skip if file already downloaded
 			getDataFromURL(url, filename) // Download and save JSON data
