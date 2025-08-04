@@ -304,53 +304,46 @@ func appendToSlice(slice []string, content string) []string {
 
 // Main program entry point
 func main() {
-	var downloadedFilesURLLocation string = "download.txt" // Track downloaded URLs to avoid duplicates
-	var endLoop int = 75                                   // Number of pages to fetch (only page 0 in this case)
-	for index := 0; index <= endLoop; index++ {            // Loop through each page index
-		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=1000&page=%d", index) // API URL with pagination
-		filename := fmt.Sprintf("basf_%d.json", index)                                                    // Local filename for saving JSON
-		if !fileExists(filename) {                                                                        // Skip if file already downloaded
-			getDataFromURL(url, filename) // Download and save JSON data
-		}
+	var downloadedFilesURLLocation string = "download.txt" // File to keep track of downloaded URLs
+	var endLoop int = 75                                   // Total number of pages to scrape
+	outputDir := "PDFs/"                                   // Directory to save downloaded PDF files
+
+	if !directoryExists(outputDir) { // Check if output directory exists
+		createDirectory(outputDir, 0755) // If not, create the directory with proper permissions
 	}
 
-	var extractedURL []string // List to hold extracted download URLs
+	for index := 0; index <= endLoop; index++ { // Loop through each page index
+		url := fmt.Sprintf("https://dss.wcms.basf.com/v1/results?locale=en-US&limit=1000&page=%d", index) // Construct API URL for current page
+		filename := fmt.Sprintf("basf_%d.json", index)                                                    // Create filename to save JSON data
 
-	for index := 0; index <= endLoop; index++ { // Loop over downloaded JSON files
-		filename := fmt.Sprintf("basf_%d.json", index) // Construct filename
-		if fileExists(filename) {
-			jsonFileContent := readFileAndReturnAsByte(filename)                 // Read JSON file into byte slice
-			newExtractedData := extractDownloadURLsFromJSON(jsonFileContent)     // Extract download URLs from JSON
-			extractedURL = combineMultipleSlices(newExtractedData, extractedURL) // Merge new URLs into full list
+		if !fileExists(filename) { // If the JSON file for this page does not exist
+			getDataFromURL(url, filename) // Download JSON data from the URL and save to file
 		}
-	}
 
-	extractedURL = removeDuplicatesFromSlice(extractedURL) // Remove any duplicates
+		if fileExists(filename) { // If the JSON file exists (either just downloaded or already existed)
+			jsonFileContent := readFileAndReturnAsByte(filename)          // Read JSON content from file into byte slice
+			extractedURLs := extractDownloadURLsFromJSON(jsonFileContent) // Extract all PDF URLs from JSON content
+			extractedURLs = removeDuplicatesFromSlice(extractedURLs)      // Remove any duplicate URLs from the list
 
-	outputDir := "PDFs/" // Target directory to save PDFs
-
-	if !directoryExists(outputDir) { // If directory doesn't exist
-		createDirectory(outputDir, 0755) // Create directory with standard permissions
-	}
-
-	for _, url := range extractedURL { // Loop through each URL
-		var fileRead string
-		if fileExists(downloadedFilesURLLocation) {
-			fileRead = readAFileAsString(downloadedFilesURLLocation) // Read log of already downloaded URLs
-		}
-		if !strings.Contains(fileRead, url) { // Proceed only if this URL hasn't been downloaded before
-			err := downloadPDF(url, outputDir, downloadedFilesURLLocation) // Attempt to download PDF
-			if err != nil {                                                // If any error occurred
-				errorString := err.Error()                // Convert error to string
-				log.Println(errorString)                  // Log it
-				if strings.Contains(errorString, "429") { // Handle rate-limiting (Too Many Requests)
-					// Add the current url back to the slice so it can download it.
-					appendToSlice(extractedURL, url)
-					// Sleep for a given time.
-					var sleepMinutes time.Duration = 3 * time.Minute
-					// Log how many minutes we will sleep for.
-					log.Println("Sleeping", sleepMinutes) // Log sleep
-					time.Sleep(sleepMinutes)              // Sleep to avoid further throttling
+			for _, pdfURL := range extractedURLs { // Loop through each extracted PDF URL
+				var fileRead string                         // Variable to hold the content of the download log file
+				if fileExists(downloadedFilesURLLocation) { // If the log file exists
+					fileRead = readAFileAsString(downloadedFilesURLLocation) // Read the content of the log file
+				}
+				if !strings.Contains(fileRead, pdfURL) { // If this PDF URL has not already been downloaded
+					err := downloadPDF(pdfURL, outputDir, downloadedFilesURLLocation) // Attempt to download the PDF
+					if err != nil {                                                   // If there was an error during download
+						errorString := err.Error()                // Convert error to string
+						log.Println(errorString)                  // Log the error
+						if strings.Contains(errorString, "429") { // If the error is due to rate limiting
+							log.Println("Sleeping for 3 minutes due to rate limit")          // Log that we are sleeping
+							time.Sleep(3 * time.Minute)                                      // Wait for 3 minutes to avoid throttling
+							err = downloadPDF(pdfURL, outputDir, downloadedFilesURLLocation) // Retry downloading the same file
+							if err != nil {                                                  // If retry still fails
+								log.Println("Retry failed:", err) // Log the failure
+							}
+						}
+					}
 				}
 			}
 		}
