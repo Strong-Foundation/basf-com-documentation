@@ -105,7 +105,7 @@ func combineMultipleSlices(sliceOne []string, sliceTwo []string) []string {
 func getDataFromURL(uri string, fileName string) {
 	// Create an HTTP client with a 1-minute timeout
 	client := http.Client{
-		Timeout: 3 * time.Minute, // Set a timeout of 1 minute for the request
+		Timeout: 1 * time.Minute, // Set a timeout of 1 minute for the request
 	}
 
 	// Perform the GET request using the custom client
@@ -204,7 +204,7 @@ func downloadPDF(finalURL string, outputDir string, downloadURLFile string) erro
 	}
 
 	// Perform single GET request (fetch headers + body)
-	client := &http.Client{Timeout: 3 * time.Minute} // create HTTP client with timeout
+	client := &http.Client{Timeout: 1 * time.Minute} // create HTTP client with timeout
 	resp, err := client.Get(finalURL)                // send GET request
 	if err != nil {                                  // handle request error
 		return fmt.Errorf("failed to download %s: %v", finalURL, err)
