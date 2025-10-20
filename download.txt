@@ -41,3 +41,12 @@ https://download.basf.com/p1/000000000030288104_ISP_GEN_RW/en/Joncryl%C2%AE_2038
 https://download.basf.com/p1/000000000030289087_ISP_GEN_RW/en/Joncryl%C2%AE_537-E_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_537_e_information_sheet_product_safety_english.pdf
 https://download.basf.com/p1/000000000030332518_ISP_GEN_RW/en/Joncryl%C2%AE_FLX_5010_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_flx_5010_information_sheet_product_safety_english.pdf
 https://download.basf.com/p1/000000000030364622_ISP_GEN_RW/en/Acronal%C2%AE_PRO_761_Information_Sheet_Product_Safety_English.pdf → PDFs\acronal_pro_761_information_sheet_product_safety_english.pdf
+https://download.basf.com/p1/000000000030364622_ISP_GEN_RW/de/Acronal%C2%AE_PRO_761_Information_Sheet_Product_Safety_German.pdf → PDFs\acronal_pro_761_information_sheet_product_safety_german.pdf
+https://download.basf.com/p1/000000000030400595_ISP_GEN_RW/en/Joncryl%C2%AE_HSL_9010_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_hsl_9010_information_sheet_product_safety_english.pdf
+https://download.basf.com/p1/000000000030428373_ISP_GEN_RW/en/Lurapret%C2%AE_N_6076_liq_Information_Sheet_Product_Safety_English.pdf → PDFs\lurapret_n_6076_liq_information_sheet_product_safety_english.pdf
+https://download.basf.com/p1/000000000030428373_ISP_GEN_RW/de/Lurapret%C2%AE_N_6076_liq_Information_Sheet_Product_Safety_German.pdf → PDFs\lurapret_n_6076_liq_information_sheet_product_safety_german.pdf
+https://download.basf.com/p1/000000000030461005_ISP_GEN_RW/en/Joncryl%C2%AE_1680-E_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_1680_e_information_sheet_product_safety_english.pdf
+https://download.basf.com/p1/000000000030464129_ISP_GEN_RW/en/Joncryl%C2%AE_667_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_667_information_sheet_product_safety_english.pdf
+https://download.basf.com/p1/000000000030475265_ISP_GEN_RW/en/Joncryl%C2%AE_544_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_544_information_sheet_product_safety_english.pdf
+https://download.basf.com/p1/000000000030482811_ISP_GEN_RW/en/Joncryl%C2%AE_651_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_651_information_sheet_product_safety_english.pdf
+https://download.basf.com/p1/000000000030484688_ISP_GEN_RW/en/Joncryl%C2%AE_HSL_9012_Information_Sheet_Product_Safety_English.pdf → PDFs\joncryl_hsl_9012_information_sheet_product_safety_english.pdf
