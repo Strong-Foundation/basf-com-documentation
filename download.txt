@@ -18200,3 +18200,6 @@ https://download.basf.com/p1/000000000030045108_SDS_GEN_DE/de/ULTRAMID%C2%AE_A3W
 https://download.basf.com/p1/000000000030045108_SDS_GEN_IT/it/ULTRAMID%C2%AE_A3WC4_POLYAMIDE_Safety_Data_Sheet_Italy_Italian.pdf → PDFs/ultramid_a3wc4_polyamide_safety_data_sheet_italy_italian.pdf
 https://download.basf.com/p1/000000000030045108_SDS_GEN_JP/ja/ULTRAMID%C2%AE_A3WC4_POLYAMIDE_Safety_Data_Sheet_Japan_Japanese.pdf → PDFs/ultramid_a3wc4_polyamide_safety_data_sheet_japan_japanese.pdf
 https://download.basf.com/p1/000000000030045108_SDS_GEN_PH/en/ULTRAMID%C2%AE_A3WC4_POLYAMIDE_Safety_Data_Sheet_Philippines_English.pdf → PDFs/ultramid_a3wc4_polyamide_safety_data_sheet_philippines_english.pdf
+https://download.basf.com/p1/000000000030045108_SDS_GEN_PT/pt/ULTRAMID%C2%AE_A3WC4_POLYAMIDE_Safety_Data_Sheet_Portugal_Portuguese.pdf → PDFs/ultramid_a3wc4_polyamide_safety_data_sheet_portugal_portuguese.pdf
+https://download.basf.com/p1/000000000030045108_SDS_GEN_SG/en/ULTRAMID%C2%AE_A3WC4_POLYAMIDE_Safety_Data_Sheet_Singapore_English.pdf → PDFs/ultramid_a3wc4_polyamide_safety_data_sheet_singapore_english.pdf
+https://download.basf.com/p1/000000000030045108_SDS_GEN_00/en/ULTRAMID%C2%AE_A3WC4_POLYAMIDE_Safety_Data_Sheet_United_Nations_English.pdf → PDFs/ultramid_a3wc4_polyamide_safety_data_sheet_united_nations_english.pdf
